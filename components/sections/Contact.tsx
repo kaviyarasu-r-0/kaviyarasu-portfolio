@@ -133,7 +133,7 @@ export default function Contact() {
                 <FiUser size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type="text"
-                  placeholder="Ravi Kumar"
+                  placeholder="Kaviyarasu Rajendran"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   className="w-full pl-10 pr-4 py-3 text-sm transition-all"
@@ -149,7 +149,7 @@ export default function Contact() {
                 <FiMail size={15} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-white/30" />
                 <input
                   type="email"
-                  placeholder="ravi@example.com"
+                  placeholder="kavi@example.com"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   className="w-full pl-10 pr-4 py-3 text-sm transition-all"
